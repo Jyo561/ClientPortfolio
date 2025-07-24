@@ -213,7 +213,7 @@ export default defineComponent({
 }
 .container {
   padding: 1rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 .column-left {
   width: 100%;
@@ -232,11 +232,11 @@ export default defineComponent({
 }
 .heading {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .heading2 {
   font-size: 1.5rem;
-  margin: 2rem 0;
+  margin-top: 0.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--text-color);
   display: inline-block;
@@ -249,7 +249,7 @@ export default defineComponent({
   gap: 0.5rem;
 }
 .large-card {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .text-content {
   text-align: left;

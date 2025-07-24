@@ -172,7 +172,7 @@ export default defineComponent({
 }
 .container {
   padding: 1rem;
-  margin-top: 1rem;
+  /*margin-top: 1rem;*/
 }
 .column-left {
   width: 100%;
@@ -202,7 +202,7 @@ export default defineComponent({
 .project-card-large {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  /*margin-top: 2rem;*/
 }
 .text-content {
   display: flex;

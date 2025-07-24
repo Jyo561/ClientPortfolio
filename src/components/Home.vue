@@ -84,12 +84,12 @@ export default defineComponent({
         <!-- Main Article -->
         <div class="w-full">
           <article class="space-y-6">
-            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight" style="font-family: Postoni, Postoni-fallback, serif !important;">
               Aaditya Singh: Visionary Tech Trailblazer
             </h1>
             <div class="about">
               <div class="mt-8 about-img">
-                <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop" alt="A visionary in the tech landscape" class="w-full object-cover rounded-lg" />
+                <img src="/profile.JPG" alt="A visionary in the tech landscape" class="w-full object-cover rounded-lg" />
               </div>
               <div class="about-text">
                 <p class="text-lg lg:text-xl leading-relaxed">
@@ -130,6 +130,8 @@ export default defineComponent({
 
 .about-text{
   width: 100%;
+  font-family: georgia, Times New Roman,serif;
+
 }
 
 .about-img{

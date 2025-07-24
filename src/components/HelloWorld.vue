@@ -73,7 +73,7 @@
     <!-- Main Content -->
     <div class="w-full footer">
       <div class="footer-bottom flex flex-wrap md:flex-nowrap justify-between items-center px-16
-        py-2 gap-4 fixed left-0 bottom-0 mt-0">
+        py-2 gap-4 mt-0">
 
     <!-- Left Text -->
         <div class="text-block text-sm whitespace-nowrap">
@@ -324,23 +324,44 @@ nav {
   gap: 32px;
 }*/
 
-.linkedin-icon:hover{
+.linkedin-icon a{
+  color: var(--text-color);
+}
+
+.github-icon a{
+  color: var(--text-color);
+}
+
+.twitter-icon a{
+  color: var(--text-color);
+}
+
+.facebook-icon a{
+  color: var(--text-color);
+}
+
+.mail-icon a{
+  color: var(--text-color);
+}
+
+
+.linkedin-icon a:hover{
   color: #0a66c2;
 }
 
-/*.github-icon:hover{
+/*.github-icon a:hover{
   color: #333333;
 }*/
 
-.twitter-icon:hover{
+.twitter-icon a:hover{
   color: #1D9BF0;
 }
 
-.facebook-icon:hover{
+.facebook-icon a:hover{
   color: #0866FF;
 }
 
-.mail-icon:hover{
+.mail-icon a:hover{
   color: #db4437;
 }
 

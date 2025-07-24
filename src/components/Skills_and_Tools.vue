@@ -224,9 +224,11 @@ export default defineComponent({
 }
 
 .content-description {
-  color: var(--text-color-muted);
+  color: var(--text-color);
   font-size: 1rem; /* 16px */
   line-height: 1.6;
+  font-family: georgia, Times New Roman,serif;
+
 }
 
 /* Skills Grid Styles */
@@ -244,7 +246,7 @@ export default defineComponent({
 }
 
 .skill-heading {
-  font-family: 'Franklin', 'Franklin-fallback', sans-serif;
+  font-family: Postoni, Postoni-fallback, serif !important;
   font-weight: 900;
   font-size: 1.1rem;
   color: var(--text-color);
@@ -259,6 +261,8 @@ export default defineComponent({
   padding: 0;
   margin: 0;
   color: var(--text-color);
+  font-family: georgia, Times New Roman,serif;
+
 }
 
 .skill-list li {
