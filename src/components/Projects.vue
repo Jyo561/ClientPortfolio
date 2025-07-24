@@ -234,7 +234,7 @@ export default defineComponent({
 .project-description {
   font-family: georgia, 'Times New Roman', serif;
   color: var(--text-color);
-  font-style: italic;
+  /*font-style: italic;*/
 }
 .image-container {
   margin-top: 1rem;

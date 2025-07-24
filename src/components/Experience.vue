@@ -116,7 +116,7 @@ export default defineComponent({
             <p class="description">A rising academic star excelled as a full-time Graduate Teaching Assistant at Georgia Institute of Technology from January 2022 to May 2023. Working with Professor Zsofia Kiraly, they advanced research in continual and federated learning while teaching CS-7643 (Deep Learning) in Spring 2023. Leveraging skills in CUDA, MXNet, and PyTorch, they elevated educational and research standards at a premier tech institution.</p>
           </div>
           <div class="card">
-            <h1 class="title">Tech Innovator Shines at Adobe with Groundbreaking Efficiency</h1>
+  <h1 class="title">Tech Innovator Shines at Adobe with Groundbreaking Efficiency</h1>
             <p class="date">Aug 2020 - Aug 2022</p>
             <p class="description">A skilled professional left a mark as a full-time Member Technical Staff at Adobe from August 2020 to August 2022. They enhanced the Adobe Cloud Document Syncing and Collaboration Platform (ACPL), cutting CRUD API time by 2x (30ms) and memory use by 5x. With Adobe Content Platform expertise, they set new efficiency benchmarks.</p>
           </div>
@@ -277,7 +277,7 @@ export default defineComponent({
 .description {
   font-family: georgia, Times New Roman,serif;
   color: var(--text-color);
-  font-style: italic;
+  /*font-style: italic;*/
   text-align: justify;
 }
 .image-container {

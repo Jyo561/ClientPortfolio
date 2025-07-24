@@ -84,17 +84,17 @@ export default defineComponent({
         <!-- Main Article -->
         <div class="w-full">
           <article class="space-y-6">
-            <h1 class="text-3xl font-bold leading-tight" style="font-family: Postoni, Postoni-fallback, serif !important;">
+            <h1 class="text-4xl font-bold leading-tight" style="font-family: Postoni, Postoni-fallback, serif !important;">
               Aaditya Singh: Visionary Tech Trailblazer
             </h1>
             <div class="about">
               <div class="mt-8 about-img">
-                <img src="/profile.JPG" alt="A visionary in the tech landscape" class="w-full object-cover rounded-lg" />
+                <img src="/profile.JPG" alt="A visionary in the tech landscape" class="
+                   rounded image-about" />
               </div>
               <div class="about-text">
-                <p class="text-lg leading-relaxed">
-                  Aaditya Singh is a dynamic technologist driven by curiosity and defined by craft, shaping the future of AI and software innovation. With a passion for solving real-world challenges, he blends expertise in machine learning, mobile development, and cloud solutions to create impactful technologies. From groundbreaking research to practical applications, Singh’s journey reflects a commitment to excellence and social good, making him a rising star in the tech landscape.
-                </p>
+                <p class="leading-relaxed" style="font-size: 15px;">
+                  Aaditya Singh is a dynamic technologist driven by curiosity and defined by craft, shaping the future of AI and software innovation. With a passion for solving real-world challenges, he blends expertise in machine learning, mobile development, and cloud solutions to create impactful technologies. From groundbreaking research to practical applications, Singh’s journey reflects a commitment to excellence and social good, making him a rising star in the tech landscape. His relentless pursuit of knowledge fuels cutting-edge projects, from optimizing healthcare systems to enhancing mobile security. With a keen eye for detail and a forward-thinking mindset, Singh continues to push boundaries, inspiring peers and leaving a lasting imprint on the industry.                </p>
               </div>
             </div>
 
@@ -112,6 +112,11 @@ export default defineComponent({
 .header {
   border-bottom: 1px solid var(--border-color, #e2e8f0);
   padding-top: 6rem;
+}
+
+.image-about{
+  width: 13rem;
+  height: 13rem;
 }
 
 .header-container {
@@ -136,6 +141,9 @@ export default defineComponent({
 
 .about-img{
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo-container {
@@ -193,6 +201,10 @@ export default defineComponent({
 
 .navigation a:hover {
   background-color: var(--hover-nav-color);
+}
+
+.leading-tight{
+  text-align: center;
 }
 
 /* Trending Bar Styles */
@@ -262,6 +274,10 @@ export default defineComponent({
     padding: 0 2rem;
   }
 
+  .leading-tight{
+    text-align: justify;
+  }
+
   .trending-content {
     justify-content: flex-start; /* Align to the left */
     flex-wrap: nowrap;
@@ -297,6 +313,10 @@ export default defineComponent({
 
   .about{
     display: flex;
+  }
+
+  .leading-tight{
+    text-align: justify;
   }
 
   .about-img{
