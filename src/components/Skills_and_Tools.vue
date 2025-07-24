@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import { defineComponent } from 'vue';
 import { RouterLink } from 'vue-router';
 import { Clock, Sparkles, Share2, Bookmark, MessageCircle, ChevronRight } from 'lucide-vue-next';
@@ -29,7 +29,7 @@ export default defineComponent({
     ChevronRight
   },
   methods: {
-    handleNavigation(route) {
+    handleNavigation(route: string) {
       this.setRoute(route);
     }
   },

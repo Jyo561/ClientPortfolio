@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import { defineComponent } from 'vue';
 import { RouterLink } from 'vue-router';
 import { Clock, Sparkles, Share2, Bookmark, MessageCircle, ChevronRight, Github, ExternalLink } from 'lucide-vue-next';
@@ -31,7 +31,7 @@ export default defineComponent({
     ExternalLink,
   },
   methods: {
-    handleNavigation(route) {
+    handleNavigation(route: string) {
       this.setRoute(route);
     }
   },

@@ -6,7 +6,7 @@ import Publications from '../components/Publications.vue'
 import HelloWorld from '../components/HelloWorld.vue'
 import Experience from '../components/Experience.vue'
 import SkillsandTools from '../components/Skills_and_Tools.vue'
-import Contact from '../components/Contact.vue'
+//import Contact from '../components/Contact.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -40,11 +40,11 @@ const router = createRouter({
           name: 'skills',
           component: SkillsandTools,
         },
-        {
-          path: 'contact',
-          name: 'contact',
-          component: Contact,
-        },
+        //{
+          //path: 'contact',
+          //name: 'contact',
+          //component: Contact,
+        //},
 
       ],
     },

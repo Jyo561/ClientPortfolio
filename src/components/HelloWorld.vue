@@ -125,7 +125,7 @@ import {
 } from 'lucide-vue-next';
 import Home from './Home.vue';
 import Experience from './Experience.vue';
-import Contact from './Contact.vue';
+//import Contact from './Contact.vue';
 import SkillsandTools from './Skills_and_Tools.vue';
 import Projects from './Projects.vue';
 import Publications from './Publications.vue';
@@ -139,7 +139,7 @@ export default defineComponent({
     Sun,
     Home,
     Experience,
-    Contact,
+    //Contact,
     SkillsandTools,
     Projects,
     Publications,
