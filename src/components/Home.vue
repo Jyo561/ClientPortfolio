@@ -92,7 +92,7 @@ export default defineComponent({
                 <img src="/profile.JPG" alt="A visionary in the tech landscape" class="w-full object-cover rounded-lg" />
               </div>
               <div class="about-text">
-                <p class="text-lg lg:text-xl leading-relaxed">
+                <p class="text-lg leading-relaxed">
                   Aaditya Singh is a dynamic technologist driven by curiosity and defined by craft, shaping the future of AI and software innovation. With a passion for solving real-world challenges, he blends expertise in machine learning, mobile development, and cloud solutions to create impactful technologies. From groundbreaking research to practical applications, Singh’s journey reflects a commitment to excellence and social good, making him a rising star in the tech landscape.
                 </p>
               </div>
