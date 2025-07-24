@@ -62,12 +62,11 @@
       </nav>
     <!--<Home :isLightMode2=isLightMode />-->
     <div class="main-content">
-      <Home v-if="currentRoute === '/'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
-      <Experience v-else-if="currentRoute === '/experience'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
-      <SkillsandTools v-else-if="currentRoute === '/skills'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
-      <Projects v-else-if="currentRoute === '/projects'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
-      <Publications v-else-if="currentRoute === '/publications'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
-      <Contact v-else-if="currentRoute === '/contact'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
+      <Home class="child" v-if="currentRoute === '/'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
+      <Experience class="child" v-else-if="currentRoute === '/experience'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
+      <SkillsandTools class="child" v-else-if="currentRoute === '/skills'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
+      <Projects class="child" v-else-if="currentRoute === '/projects'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
+      <Publications clas="child" v-else-if="currentRoute === '/publications'" :isLightMode2="isLightMode" :setRoute="setRoute" :currentRoute="currentRoute" />
       <div v-else class="text-center p-4">Page not found</div>
     </div>
     <!-- Main Content -->
@@ -77,7 +76,7 @@
 
     <!-- Left Text -->
         <div class="text-block text-sm whitespace-nowrap">
-          © 2025 AAditya Singh. All Rights Reserved.
+          © 2025 Aaditya Singh. All Rights Reserved.
         </div>
 
     <!-- Center Links -->
@@ -439,6 +438,12 @@ main .grid {
     gap: 48px;
   }
 }
+
+.child {
+  transition: all 0.4s ease;
+}
+
+
 
 .options button{
   color: var(--text-color) !important;

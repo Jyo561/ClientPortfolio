@@ -84,7 +84,7 @@ export default defineComponent({
         <!-- Main Article -->
         <div class="w-full">
           <article class="space-y-6">
-            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight" style="font-family: Postoni, Postoni-fallback, serif !important;">
+            <h1 class="text-3xl font-bold leading-tight" style="font-family: Postoni, Postoni-fallback, serif !important;">
               Aaditya Singh: Visionary Tech Trailblazer
             </h1>
             <div class="about">
