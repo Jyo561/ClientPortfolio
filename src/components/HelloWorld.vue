@@ -88,11 +88,12 @@
 
     <!-- Social Icons -->
         <div class="text-block flex gap-4 text-xl whitespace-nowrap">
-          <div class="linkedin-icon"><Linkedin /></div>
-          <div class="github-icon"><Github /></div>
-          <div class="twitter-icon"><Twitter /></div>
-          <div class="facebook-icon"><Facebook /></div>
-          <div class="mail-icon"><Mail /></div>
+          <div class="linkedin-icon"><a
+            href="https://www.linkedin.com/in/aadityaks" target="blank"><Linkedin /></a></div>
+          <div class="github-icon"><a href="" target="blank"><Github /></a></div>
+          <div class="twitter-icon"><a href="" target="blank"><Twitter /></a></div>
+          <div class="facebook-icon"><a href="" target="blank"><Facebook /></a></div>
+          <div class="mail-icon"><a href="mailto:aaditya99983@gmail.com" target="blank"><Mail /></a></div>
         </div>
 
       </div>
