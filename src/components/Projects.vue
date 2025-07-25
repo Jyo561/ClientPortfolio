@@ -172,6 +172,7 @@ export default defineComponent({
 }
 .container {
   padding: 1rem;
+  padding-bottom: 2rem !important;
   /*margin-top: 1rem;*/
 }
 .column-left {

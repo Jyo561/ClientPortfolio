@@ -122,13 +122,6 @@ export default defineComponent({
             >
               <Menu class="w-5 h-5" />
             </button>
-            <button
-              type="button"
-              class="hover:bg-gray-800 p-1 rounded"
-              style="border: none; cursor: pointer;"
-            >
-              <Bell class="w-5 h-5" />
-            </button>
           </div>
 
           <div class="flex justify-center items-center w-full top-1/4 absolute left-1/2 transform -translate-x-1/2 ">
@@ -276,7 +269,7 @@ export default defineComponent({
   background-color: var(--background-color);
   top: 0 !important;
   left: 0 !important;
-  width: 100vw !important;
+  /*width: 100vw !important;*/
   padding-top: 0.5rem;
   border: none;
 }
@@ -530,6 +523,27 @@ aside .mt-1 {
   padding-bottom: 6rem;
 }
 
+@media(max-width: 400px){
+  .subscribe-button{
+    display: none !important;
+  }
+  @media(min-height: 850px){
+    .footer{
+      position: relative !important;
+      left: auto;
+      bottom: auto;
+    }
+  }
+
+  @media(min-height:900px){
+    .footer{
+      position: fixed;
+      left: 0 !important;
+      bottom: 0 !important;
+    }
+  }
+}
+
 @media (min-width: 700px) {
   .resume-text {
     display: inline;
@@ -547,6 +561,7 @@ aside .mt-1 {
     position: fixed;
     left: 0 !important;
     bottom: 0 !important;
+
   }
 }
 
