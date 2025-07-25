@@ -307,6 +307,8 @@ export default defineComponent({
   }
   .container {
     padding: 1rem 4rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
   }
   .large-card {
     flex-direction: row;
@@ -352,6 +354,8 @@ export default defineComponent({
   }
   .container {
     padding: 1rem 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
 }
 </style>

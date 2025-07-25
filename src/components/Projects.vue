@@ -96,7 +96,7 @@ export default defineComponent({
         <!-- Large Project Card -->
         <div class="project-card-large">
           <div class="text-content">
-            <h1 class="project-title">Smart Healthcare Optimizer Revolutionizes Resource Management</h1>
+            <h1 class="project-title2">Smart Healthcare Optimizer Revolutionizes Resource Management</h1>
             <p class="project-date">Jan 2024 - Present</p>
             <div class="project-links">
               <a href="#" class="icon-link"><Github class="icon" /></a>
@@ -121,7 +121,7 @@ export default defineComponent({
             <p class="project-description">Aditya Singh has introduced the Secure Mobile Unikernel Framework for Android, debuting in late 2020. Using C++ and QEMU, this innovative tool boosted app security and cut memory usage by 30%. Tested with KVM, it established a new benchmark for lightweight mobile solutions, showcasing Singh’s expertise in Android Development.</p>
           </div>
           <div class="project-card-small">
-            <h1 class="project-title">Tech Innovator Shines at Adobe with Groundbreaking Efficiency</h1>
+            <h1 class="project-title">Tech Innovator Shines at Adobe with Ground-breaking Efficiency</h1>
             <p class="project-date">Aug 2020 - Aug 2022</p>
             <div class="project-links">
               <a href="#" class="icon-link"><Github class="icon" /></a>
@@ -197,7 +197,7 @@ export default defineComponent({
 /* Project Card Styles */
 .project-card-large, .project-card-small {
   width: 100%;
-  text-align: justify;
+  text-align: left;
 }
 .project-card-large {
   display: flex;
@@ -214,7 +214,18 @@ export default defineComponent({
   font-size: 1.75rem;
   font-weight: bold;
   line-height: 1.2;
+  /*letter-spacing: -0.05em;*/
 }
+
+.project-title2 {
+  font-family: Postoni, Postoni-fallback, serif !important;
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1.2;
+  /*padding-right: 8rem;*/
+  /*letter-spacing: -0.05rem;*/
+}
+
 .project-date {
   font-family: Franklin, Franklin-fallback, sans-serif;
   color: var(--text-color-muted);
@@ -270,6 +281,8 @@ export default defineComponent({
   }
   .container {
     padding: 1rem 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   .project-card-large {
     flex-direction: row;
@@ -305,6 +318,8 @@ export default defineComponent({
   }
   .container {
     padding: 1rem 6rem;
+    margin-right: 6rem;
+    margin-left: 6rem;
   }
 }
 </style>
